@@ -1,0 +1,146 @@
+  #body{
+	background-color: ;
+}
+.section1{
+	background-image: url(../img/loo.jpg);
+	opacity:;
+	min-height: 100%;
+	min-width: 100%;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+.navbar-fixed-top{
+	margin-bottom: 50px !important;
+}
+.section1 nav ul .selected{
+	color: #3399ff !important;
+}
+.navbar-brand{
+  border: 3px solid white;
+  padding: 10px !important;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 32px !important;
+  color: white !important;
+}
+.section1 .navbar ul a {
+	color: white !important;
+}
+.section1 .navbar ul a:hover {
+	color: #3399ff!important;
+}
+#item{
+	color: white;
+	float: right;
+}
+#header{
+	text-align:center ;
+	font-size: ;
+	margin-top: 15%;
+	margin-bottom: 8%;
+}
+#header h1{
+	text-align:;
+	font-size: 64px;
+}
+#header h5{
+	text-align: ;
+	font-size: 32px;
+}
+#header img{
+	border-radius: 20px;
+	width: 160px;
+}
+
+.section2 h2{
+	font-size: 40px;
+	text-align: center;
+}
+.section2 h2 .fa{
+	margin-top: 10px;
+}
+.section2 #portfolio img{
+	width:75% ;
+	margin:10%;
+	background-color:;
+	padding: ;
+	border-radius: 20px;
+	margin-top: 5%;
+}
+.section2 #portfolio i{
+	text-align:;
+}
+.section2 #portfolio a:hover{
+	text-decoration: none;
+}
+footer{
+	text-align: center;
+	margin-top: 30px;
+
+}
+footer a{
+	text-align: center;
+	margin: 20px;
+
+	
+
+}
+#button button{
+	margin-top: 30px !important;
+}
+.sectionp .jumbotron{
+	background-color: black;
+	opacity: 0.9;
+	margin-top:75px;
+}
+.sectionp .jumbotron h1, p{
+	color: white;
+}
+.sectionp .jumbotron p{
+	color: #3399ff;
+}
+#jumbo{
+	background-color: white;
+	margin-top: 100px;
+	margin-bottom: -20px;
+	opacity: 0.9;
+}
+#jumbo h1{
+	margin-bottom: 20px;
+	color:#3399ff;
+
+}
+@media screen and (max-width: 765px){
+	.navbar-right{
+		display: none;
+		
+	}
+	#header{
+	text-align:center ;
+	font-size: ;
+	margin-top: 35%;
+	margin-bottom: 8%;
+}
+.sectionp .jumbotron{
+	background-color: black;
+	opacity: 0.9;
+	margin-top:75px;
+}
+}
+@media screen and (min-width: 765px){
+     #item{
+     	display: none;
+     }
+
+}
+/***********Animation************/
+.fadeInLeft{
+	animation-delay:0.5s;
+}
+.fadeInRight{
+	animation-delay:0.5s;
+}
+.fadeInDown{
+	animation-delay:0.5s;
+}
